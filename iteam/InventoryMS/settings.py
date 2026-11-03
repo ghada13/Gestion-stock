@@ -16,6 +16,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = [".apps.dell64.dottn.com", "localhost", "127.0.0.1", "gestion-stock-git-gestion-stock-dev.apps.dell64.dottn.com"]
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://gestion-stock-git-gestion-stock-dev.apps.dell64.dottn.com",
+]
+
 
 # Application definition
 
