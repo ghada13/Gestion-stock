@@ -14,7 +14,7 @@ SECRET_KEY = 'django-insecure-g_n2+2bznu6e@1wel!i(&-4tp86_7lop5395ww+i4x%9*7^old
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [".apps.dell64.dottn.com", "localhost", "127.0.0.1"; "gestion-stock-git-gestion-stock-dev.apps.dell64.dottn.com"]
 
 
 # Application definition
